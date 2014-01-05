@@ -11,6 +11,7 @@ include /Users/poly/workspace/OpenCV-2.4.6-android-sdk/sdk/native/jni/OpenCV.mk
 LOCAL_SRC_FILES  := Scouter.cpp jni_scouter.cpp
 LOCAL_C_INCLUDES += $(LOCAL_PATH)
 LOCAL_LDLIBS     += -llog -ldl
+LOCAL_ARM_NEON := true
 LOCAL_MODULE     := scouter
 LOCAL_SHARED_LIBRARIES +=
 
